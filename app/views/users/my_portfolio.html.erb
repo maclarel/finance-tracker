@@ -1,6 +1,6 @@
 <h1>My Portfolio</h1>
 
-<div class='search-area'>
+<div class="search-area">
   <h3>Search stocks</h3>
   <!-- the `remote: true` below notes that this is an ajax request -->
   <%= form_tag search_stock_path, remote: true, method: :get do %>
@@ -18,5 +18,9 @@
 </div>
 
 <div id="results">
-  <%= render 'layouts/messages' %>
+
 </div>
+
+<% if !@tracked_stocks.empty? %>
+  <%= render 'stocks/list' %>
+<% end %>
