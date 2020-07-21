@@ -1,6 +1,6 @@
 Stock tracking and social network app using Rails 6 with Bootstrap for [The Complete Ruby on Rails Developer Course](https://github.udemy.com/course/the-complete-ruby-on-rails-developer-course).
 
-This features interactive user sign-up and profile management using `Devise` as well as API integration with `http://iexcloud.io/` for stock data retrieval. This also implements user level friendships/relations and the ability to follow other users and view their portfolios.
+This features interactive user sign-up and profile management using `Devise` as well as API integration with `iexcloud.io` for stock data retrieval. This also implements user level friendships/relations and the ability to follow other users and view their portfolios.
 
 To run:
 
